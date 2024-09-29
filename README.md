@@ -14,5 +14,9 @@ This study conducts a comparative analysis of three classification models applie
 * I divided this project in two parts: 
   * Feature extraction: You can verify this project section in the file FeatureExtractioncsv.ipynb. Basically, I get the raw data from a .zip file available in MaFaulda dataset, convert this data to frequency domain using FFT and got the frequency features. In addition, I also some time domain features to be used in the models.
   * Machine learning models: I compared three machine learning models in my project: Random Forest, SVM and Gradient Boosting.
+ 
+* There are two folders in this repository:
+  * dataset - I added the FeaturesDataset.csv file there. This is the output for the FeatureExtractioncsv.ipynb notebook and, basically, it is the pre-processed dataset, with the frequency and time features used to train the models.
+  * notebooks - This folder contains all the notebooks used to develop this project.
 
 
